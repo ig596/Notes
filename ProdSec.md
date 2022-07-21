@@ -36,5 +36,5 @@
 ## References
 - [Rugged Software Methodology](https://ruggedsoftware.org)
 - DevSecOps (Multiple Sources)
-- [Julian Cohen’s Product Security Framework](https://hockeyinjune.medium.com/secure-engineering-guidelines-3b8845ac3265)
+- [Julian Cohen’s Product Security Framework](https://hockeyinjune.medium.com/product-security-14127b5838ba)
 - [Lcamtuf’s Blog on getting product security engineering right](https://lcamtuf.blogspot.com/2018/02/getting-product-security-engineering.html)
