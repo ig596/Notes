@@ -31,11 +31,10 @@
   - Number of Shadow/Untracked IT projects discovered 
     - We can’t secure what we don’t know about, so identifying gaps in coverage by security is critical. 
     - A critical component to accomplishing this is building trust and relationships with the other relevant teams to engage security proactively. If dealing with security is difficult, they will not want to bring this to the team.
--       
 
 
-References:
-- Rugged Software Methodology (ruggedsoftware.org)
+## References
+- [Rugged Software Methodology](https://ruggedsoftware.org)
 - DevSecOps (Multiple Sources)
-- Julian Cohen’s Product Security Framework (https://hockeyinjune.medium.com/secure-engineering-guidelines-3b8845ac3265)
-- Lcamtuf’s Blog on getting product security engineering right (https://lcamtuf.blogspot.com/2018/02/getting-product-security-engineering.html)
+- [Julian Cohen’s Product Security Framework](https://hockeyinjune.medium.com/secure-engineering-guidelines-3b8845ac3265)
+- [Lcamtuf’s Blog on getting product security engineering right](https://lcamtuf.blogspot.com/2018/02/getting-product-security-engineering.html)
