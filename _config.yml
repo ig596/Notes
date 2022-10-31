@@ -1,1 +1,176 @@
-theme: jekyll-theme-slate
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Isaiah's Personal Site
+email: isaiah@isaiahgenis.site
+repository: "ig596/Notes"
+description: >- # this means to ignore newlines until "baseurl:"
+  Isaiah's Personal Site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  ig596
+timezone: America/New_York
+encoding: utf-8
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+include: ["_pages"]
+#permalink: /:categories/:title/
+paginate: 25 # amount of posts to show
+paginate_path: /posts/page:num/
+#permalink: /:categories/:title/
+breadcrumbs: true
+# Theme Settings
+#theme: minima
+#remote_theme: pages-themes/slate@v0.2.0
+#theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "dirt"
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+
+jekyll_admin:
+  hidden_links:
+  homepage: "pages"
+  mode: dev
+atom_feed:
+  hide: true
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+  ctf-writeups:
+    output: true
+    permalink: /:collection/:path/
+  Product Security:
+    output: true
+    permalink: /:collection/:path/
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
+
+author:
+  name: "Isaiah Genis M.S.,CISSP"
+  bio: "Experienced Technology & Security Professional with a demonstrated history of working on small and enterprise scale systems. Skilled in Cloud Security, Amazon Web Services (AWS), Agile Methodologies, DevSecOps and Object-Oriented Programming (OOP)."
+  location: "NYC"
+  github: "ig596"
+  linkedin: "isaiahgenis"
+  hackerrank: "isaiahgenis"
+footer:
+
+
+#
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+post_archive:
+  type: liquid
+  path: /posts/
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test

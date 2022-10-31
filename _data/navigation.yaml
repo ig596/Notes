@@ -1,0 +1,18 @@
+main:
+- title: "Home"
+  url: /index.html
+- title: "About"
+  url: /about/
+- title: "Posts"
+  url: /posts/
+  children:
+    - title: "By Category"
+    - url: "/categories/"
+
+about:
+  - title: "Education"
+    url: "/about/#education"
+  - title: "Certifications"
+    url: "/about/#certifications"
+
+
