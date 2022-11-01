@@ -36,8 +36,6 @@ paginate_path: /posts/page:num/
 #permalink: /:categories/:title/
 breadcrumbs: true
 # Theme Settings
-#theme: minima
-#remote_theme: pages-themes/slate@v0.2.0
 #theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "dirt"
