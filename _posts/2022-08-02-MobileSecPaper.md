@@ -10,4 +10,4 @@ tags:
 - research
 last_modified_at: 2021-08-15T16:00:58-04:00
 ---
-<object data="/assets/pdf/Mobile Sec Project.pdf" width="1000" height="1000" type='application/pdf'></object>
+<object data="/Notes/assets/pdf/Mobile Sec Project.pdf" width="1000" height="1000" type='application/pdf'></object>
