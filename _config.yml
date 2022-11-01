@@ -23,7 +23,7 @@ email: isaiah@isaiahgenis.site
 repository: "ig596/Notes"
 description: >- # this means to ignore newlines until "baseurl:"
   Isaiah's Personal Site
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Notes" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ig596
 timezone: America/New_York
@@ -89,7 +89,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: home
     values:
       layout: single
       author_profile: true
